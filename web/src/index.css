@@ -1,0 +1,101 @@
+:root {
+  color-scheme: light dark;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  background: #0e1116;
+  color: #e6e6e6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+h1 {
+  font-size: 1.3rem;
+  letter-spacing: 0.02em;
+  margin: 0 0 0.2rem 0;
+}
+
+.subtitle {
+  color: #a9b1bc;
+  font-size: 0.85rem;
+  margin: 0 0 1.5rem 0;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+  flex-wrap: wrap;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  color: #a9b1bc;
+}
+
+select {
+  background: #161b22;
+  border: 1px solid #2a3038;
+  border-radius: 4px;
+  color: #e6e6e6;
+  padding: 0.45rem 0.6rem;
+  font-family: inherit;
+  font-size: 0.85rem;
+  min-width: 220px;
+}
+
+.narrative {
+  background: #161b22;
+  border: 1px solid #2a3038;
+  border-left: 3px solid #2f81f7;
+  border-radius: 4px;
+  padding: 0.8rem 1rem;
+  font-size: 0.9rem;
+  color: #d6dbe0;
+  margin-bottom: 1.2rem;
+}
+
+.card {
+  background: #161b22;
+  border: 1px solid #2a3038;
+  border-radius: 6px;
+  padding: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.card h2 {
+  font-size: 0.9rem;
+  color: #a9b1bc;
+  font-weight: 500;
+  margin: 0 0 0.8rem 0;
+}
+
+.empty {
+  color: #7a828c;
+  font-size: 0.85rem;
+}
+
+.error {
+  color: #f27272;
+  font-size: 0.85rem;
+}
+
+footer {
+  color: #7a828c;
+  font-size: 0.75rem;
+  margin-top: 1.5rem;
+}
